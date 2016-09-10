@@ -10,6 +10,12 @@
     android:paddingTop="0dp"
     tools:context="com.zzz.white.demo_tabpage.MainActivity">
 
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/id_toolbar"
         android:layout_width="match_parent"
@@ -34,6 +40,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         app:tabMode="fixed"/>
+
+    </android.support.design.widget.AppBarLayout>
 
 
     <android.support.v4.view.ViewPager
